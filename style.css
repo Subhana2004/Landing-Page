@@ -215,3 +215,31 @@ body{
     background-color: #530d04;
     color: white;
 }
+
+@media (max-width: 480px) {
+    .navbar ul {
+        padding: 0;
+    }
+
+    .s1, .s2, .s3, .s5, .s6, .s7 {
+        padding: 1rem; /* Reduce padding */
+    }
+
+    .s1 h1, .s2 h1, .s3 h1, .s5 h1, .s7 h1 {
+        font-size: 1.2rem; /* Smaller headings */
+    }
+
+    .s2 .help img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .d-2 {
+        padding: 1rem; /* Smaller form padding */
+        width: 90%;
+    }
+
+    .footer {
+        font-size: 0.8rem; /* Smaller footer text */
+    }
+}
